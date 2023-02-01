@@ -1,0 +1,3 @@
+{
+  "SqlHospital": "Data Source=LOCALHOST\\DESARROLLO;Initial Catalog=Hospital;Persist Security Info=True;User ID=sa;Password=MCSD2023"
+}
