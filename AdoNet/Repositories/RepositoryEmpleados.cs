@@ -17,7 +17,7 @@ namespace AdoNet.Repositories
         SqlDataReader reader;
         public RepositoryEmpleados()
         {
-            this.cn = new SqlConnection(HelperConfiguration.GetConnectionString("SqlHospital"));
+            this.cn = new SqlConnection(HelperConfiguration.GetConnectionString("SqlHospitalCasa"));
             this.com = new SqlCommand();
             this.com.Connection = this.cn;
         }

@@ -46,7 +46,6 @@ namespace AdoNet
     public partial class Form12EmpleadosOficios : Form
     {
         RepositoryEmpleados repo;
-        List<Empleado> empleados;
         public Form12EmpleadosOficios()
         {
             InitializeComponent();
